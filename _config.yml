@@ -20,6 +20,9 @@ sass:
 # About/contact
 author:             Rekt Coder
   
+pages_list:       
+  About: '/about'
+  Feed: '/atom.xml'
 
 # Gems
 gems:
