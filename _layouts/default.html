@@ -2,8 +2,7 @@
 <html lang="en">
 
   {% include head.html %}
-  {% include comments.html %}
-
+ 
   <body>
 
     <div class="container content">
@@ -40,7 +39,6 @@
        ga('send', 'pageview');
      </script>
     {% endif %}
-
-    <script id="dsq-count-scr" src="//rektcoder.disqus.com/count.js" async></script>
+    {% include comments.html %}
   </body>
 </html>
