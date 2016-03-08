@@ -7,7 +7,7 @@ permalink:           pretty
 # Setup
 title:               RektCoder
 url:                 http://rektcoder.github.io
-paginate:            1
+paginate:            10
 baseurl:             ""
 
 # Assets
@@ -21,7 +21,6 @@ sass:
 author:             Rekt Coder
   
 pages_list:       
-  About: '/about'
   Feed: '/atom.xml'
 
 # Gems
