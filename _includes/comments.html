@@ -9,7 +9,8 @@
 
 var disqus_config = function () {
 this.page.url = "http://rektcoder.github.io"; 
-this.page.identifier = "{{ site.disqusid }}{{ page.url | replace:'index.html','' }}";
+/*this.page.identifier = "{{ site.disqusid }}{{ page.url | replace:'index.html','' }}";*/
+this.page.identifier = "{{ page.url }}";
 };
 
 (function() { // DON'T EDIT BELOW THIS LINE
