@@ -5,7 +5,7 @@ name: Rekt Coder Blog
 permalink:           pretty
 
 # Setup
-title:               RektCoder
+title:               Rekt Coder
 url:                 http://rektcoder.github.io
 paginate:            10
 baseurl:             ""
@@ -20,7 +20,8 @@ sass:
 # About/contact
 author:             Rekt Coder
   
-pages_list:       
+pages_list: 
+  About: '/about'      
   Feed: '/atom.xml'
 
 # Gems
